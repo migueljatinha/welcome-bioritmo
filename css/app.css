@@ -602,6 +602,20 @@ body {
   .ico.active {
     display: block; }
 
+.playSlide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  height: 100%; }
+  .playSlide img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 80px; 
+    cursor:pointer;}
+
 .presentation {
   position: fixed;
   top: 0;
